@@ -505,6 +505,7 @@ GameObject:
   - component: {fileID: 318273779}
   - component: {fileID: 318273778}
   - component: {fileID: 318273777}
+  - component: {fileID: 318273780}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -541,6 +542,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38d91cd7cc754074cbf3dc9a7cc1c8ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OP: {fileID: 0}
 --- !u!114 &318273778
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -574,6 +576,33 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 318273775}
+--- !u!114 &318273780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 318273775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edad52bc9d4e76949b8d562592ba6181, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Center:
+  - {fileID: 35103847}
+  - {fileID: 40753724}
+  - {fileID: 538787921}
+  - {fileID: 1553513172}
+  PanelRect:
+  - {fileID: 35103847}
+  - {fileID: 40753724}
+  - {fileID: 538787921}
+  - {fileID: 1553513172}
+  G_Object:
+  - {fileID: 318273776}
+  - {fileID: 443118287}
+  - {fileID: 754776163}
+  - {fileID: 1471323692}
+  p_check: 00000000
 --- !u!1 &357299669
 GameObject:
   m_ObjectHideFlags: 0
@@ -735,6 +764,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38d91cd7cc754074cbf3dc9a7cc1c8ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OP: {fileID: 0}
 --- !u!114 &384869711
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -810,6 +840,7 @@ GameObject:
   - component: {fileID: 443118290}
   - component: {fileID: 443118289}
   - component: {fileID: 443118288}
+  - component: {fileID: 443118291}
   m_Layer: 5
   m_Name: Image (1)
   m_TagString: Untagged
@@ -846,6 +877,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38d91cd7cc754074cbf3dc9a7cc1c8ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OP: {fileID: 0}
 --- !u!114 &443118289
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -879,6 +911,33 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 443118286}
+--- !u!114 &443118291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 443118286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edad52bc9d4e76949b8d562592ba6181, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Center:
+  - {fileID: 35103847}
+  - {fileID: 40753724}
+  - {fileID: 538787921}
+  - {fileID: 1553513172}
+  PanelRect:
+  - {fileID: 35103847}
+  - {fileID: 40753724}
+  - {fileID: 538787921}
+  - {fileID: 1553513172}
+  G_Object:
+  - {fileID: 318273776}
+  - {fileID: 443118287}
+  - {fileID: 754776163}
+  - {fileID: 1471323692}
+  p_check: 00000000
 --- !u!1 &456832429
 GameObject:
   m_ObjectHideFlags: 0
@@ -1255,6 +1314,7 @@ GameObject:
   - component: {fileID: 754776166}
   - component: {fileID: 754776165}
   - component: {fileID: 754776164}
+  - component: {fileID: 754776167}
   m_Layer: 5
   m_Name: Image (2)
   m_TagString: Untagged
@@ -1291,6 +1351,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38d91cd7cc754074cbf3dc9a7cc1c8ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OP: {fileID: 0}
 --- !u!114 &754776165
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1324,6 +1385,33 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 754776162}
+--- !u!114 &754776167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 754776162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edad52bc9d4e76949b8d562592ba6181, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Center:
+  - {fileID: 35103847}
+  - {fileID: 40753724}
+  - {fileID: 538787921}
+  - {fileID: 1553513172}
+  PanelRect:
+  - {fileID: 35103847}
+  - {fileID: 40753724}
+  - {fileID: 538787921}
+  - {fileID: 1553513172}
+  G_Object:
+  - {fileID: 318273776}
+  - {fileID: 443118287}
+  - {fileID: 754776163}
+  - {fileID: 1471323692}
+  p_check: 00000000
 --- !u!1 &827338698
 GameObject:
   m_ObjectHideFlags: 0
@@ -2019,6 +2107,7 @@ GameObject:
   - component: {fileID: 1471323695}
   - component: {fileID: 1471323694}
   - component: {fileID: 1471323693}
+  - component: {fileID: 1471323696}
   m_Layer: 5
   m_Name: Image (3)
   m_TagString: Untagged
@@ -2055,6 +2144,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38d91cd7cc754074cbf3dc9a7cc1c8ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OP: {fileID: 0}
 --- !u!114 &1471323694
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2088,6 +2178,33 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1471323691}
+--- !u!114 &1471323696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1471323691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edad52bc9d4e76949b8d562592ba6181, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Center:
+  - {fileID: 35103847}
+  - {fileID: 40753724}
+  - {fileID: 538787921}
+  - {fileID: 1553513172}
+  PanelRect:
+  - {fileID: 35103847}
+  - {fileID: 40753724}
+  - {fileID: 538787921}
+  - {fileID: 1553513172}
+  G_Object:
+  - {fileID: 318273776}
+  - {fileID: 443118287}
+  - {fileID: 754776163}
+  - {fileID: 1471323692}
+  p_check: 00000000
 --- !u!1 &1492048987
 GameObject:
   m_ObjectHideFlags: 0

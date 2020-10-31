@@ -5,6 +5,8 @@ using UnityEngine.EventSystems;
 
 public class ObjectDrag : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler, IDropHandler
 {
+    public Object_Position OP;
+
     public void OnBeginDrag(PointerEventData eventData)
     {
         Debug.Log("Begin Drag");
@@ -12,6 +14,7 @@ public class ObjectDrag : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDr
 
     public void OnDrag(PointerEventData eventData)
     {
+        OP = FindObjectOfType(typeof(Object_Position)) as Object_Position;
         transform.position = eventData.position;
         Debug.Log("Drag");
     }
@@ -23,6 +26,7 @@ public class ObjectDrag : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDr
 
     public void OnEndDrag(PointerEventData eventData)
     {
+        OP.set();
         Debug.Log("End Drag");
     }
 }
