@@ -690,7 +690,7 @@ GameObject:
   - component: {fileID: 384869711}
   - component: {fileID: 384869712}
   m_Layer: 0
-  m_Name: Character_1
+  m_Name: Lobe(Player)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1776,7 +1776,7 @@ GameObject:
   - component: {fileID: 1106791581}
   - component: {fileID: 1106791580}
   m_Layer: 0
-  m_Name: Character_2
+  m_Name: Greedia(Character_2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1833,7 +1833,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1106791579}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.61, y: -1.36, z: -0.02734375}
+  m_LocalPosition: {x: 0.86, y: 2.21, z: -0.02734375}
   m_LocalScale: {x: 8, y: 8, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2432,7 +2432,7 @@ GameObject:
   - component: {fileID: 1784807053}
   - component: {fileID: 1784807052}
   m_Layer: 0
-  m_Name: Player
+  m_Name: Pesshiho(Character_3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2505,7 +2505,7 @@ GameObject:
   - component: {fileID: 1910899476}
   - component: {fileID: 1910899475}
   m_Layer: 0
-  m_Name: Character_3
+  m_Name: Narci(Character_3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2562,7 +2562,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1910899474}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.45, y: 2.44, z: -0.02734375}
+  m_LocalPosition: {x: -4.52, y: -1.35, z: -0.02734375}
   m_LocalScale: {x: 8, y: 8, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
