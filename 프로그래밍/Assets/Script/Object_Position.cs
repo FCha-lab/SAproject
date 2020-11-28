@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class Object_Position : MonoBehaviour
 {
-
+    Character_State[] cs = new Character_State[4];
     [SerializeField] Transform[] Center = null; // 패널 4개의 중앙 좌표를 받음
     [SerializeField] RectTransform[] PanelRect = null;  // 패널4개의 폭넓이
     [SerializeField] RectTransform[] G_Object = null;   // 오브젝트의 좌표
@@ -18,6 +18,14 @@ public class Object_Position : MonoBehaviour
 
     void Start()
     {
+        Debug.Log(name);
+
+
+        cs[0] = GameObject.Find("Lobe(Player)").GetComponent<Character_State>();
+        cs[1] = GameObject.Find("Greedia(Character_2)").GetComponent<Character_State>();
+        cs[2] = GameObject.Find("Narci(Character_3)").GetComponent<Character_State>();
+        cs[3] = GameObject.Find("Pesshiho(Character_4)").GetComponent<Character_State>();
+
         Range1 = new Vector2[Center.Length];
         Range2 = new Vector2[Center.Length];
 
@@ -30,7 +38,7 @@ public class Object_Position : MonoBehaviour
 
     void Update()
     {
-
+      
     }
     public void CheckInPanel()
     {
@@ -53,22 +61,28 @@ public class Object_Position : MonoBehaviour
                             Char_Plan[0, j] = string.Format("{0}", i + 1);
                             p_check[j] = true;
                             if (j == 0)
-                                Char_Plan[1, j] = "취사";
+                                cs[i].work = "취사";                                                        
+                            //Char_Plan[1, j] = "취사";                     
                             else if (j == 1)
-                                Char_Plan[1, j] = "경계";
+                                cs[i].work = "경계";
+                            //Char_Plan[1, j] = "경계";
                             else
-                                Char_Plan[1, j] = "탐색";
+                                cs[i].work = "탐색";
+                            //Char_Plan[1, j] = "탐색";
+
+                            Debug.Log("작업 배정 : "+Char_Plan[1,j]);
                             Debug.Log(flag[j]);
                             Debug.Log(j + "번째 들어감");
                             Debug.Log(i + "번째 오브젝트");
                         }
-
+                        
 
                     }
                 }
             }
         }
-
+        for (int i = 0; i < 4; i++)
+            Debug.Log(cs[i].work);
     }
     public void CheckFlag()
     {
@@ -90,6 +104,7 @@ public class Object_Position : MonoBehaviour
                 }
                 else
                 {
+                    cs[i].work = "없음";
                     flag[i] = 0;
                     p_check[i] = false;
                     Char_Plan[0, i] = null;

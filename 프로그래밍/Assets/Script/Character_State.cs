@@ -5,11 +5,13 @@ using UnityEngine;
 public class Character_State : MonoBehaviour {
 
     public string ChracterName; //캐릭터 이름
-
     //체력, 정신력, 건강 (0 ~ 150)
     public int Strength;
     public int Mental;
     public int Health;
+
+    //작업
+    public string work;
 
     //체력검사, 정신력 검사, 건강검사
     public bool StrengthEmpty;

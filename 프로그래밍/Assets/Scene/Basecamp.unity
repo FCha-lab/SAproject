@@ -587,6 +587,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: edad52bc9d4e76949b8d562592ba6181, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  name: Lobe(Player)
+  cs: {fileID: 0}
   Center:
   - {fileID: 35103847}
   - {fileID: 40753724}
@@ -689,6 +691,7 @@ GameObject:
   - component: {fileID: 384869710}
   - component: {fileID: 384869711}
   - component: {fileID: 384869712}
+  - component: {fileID: 384869713}
   m_Layer: 0
   m_Name: Lobe(Player)
   m_TagString: Untagged
@@ -829,6 +832,39 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   panel: {fileID: 97439174}
+--- !u!114 &384869713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 384869707}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6779606df3b644e47b371aa8de9ff635, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ChracterName: 
+  Strength: 0
+  Mental: 0
+  Health: 0
+  work: 
+  StrengthEmpty: 0
+  MentalEmpty: 0
+  HealthEmpty: 0
+  isDead: 0
+  isDeadFlag: 0
+  Recovery: 0
+  Stability: 0
+  Clean: 0
+  RecoveryState: 0
+  StabilityState: 0
+  CleanState: 0
+  isFemale: 0
+  BasicFeeling: 0
+  CumulativeFeeling: 0
+  Feeling: 0
+  Relationship: 00000000000000000000000000000000
+  RelationshipCheck: 0
 --- !u!1 &443118286
 GameObject:
   m_ObjectHideFlags: 0
@@ -922,6 +958,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: edad52bc9d4e76949b8d562592ba6181, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  name: Greedia(Character_2)
+  cs: {fileID: 0}
   Center:
   - {fileID: 35103847}
   - {fileID: 40753724}
@@ -1396,6 +1434,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: edad52bc9d4e76949b8d562592ba6181, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  name: Narci(Character_3)
+  cs: {fileID: 0}
   Center:
   - {fileID: 35103847}
   - {fileID: 40753724}
@@ -1775,6 +1815,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1106791581}
   - component: {fileID: 1106791580}
+  - component: {fileID: 1106791582}
   m_Layer: 0
   m_Name: Greedia(Character_2)
   m_TagString: Untagged
@@ -1839,6 +1880,39 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1106791582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1106791579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6779606df3b644e47b371aa8de9ff635, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ChracterName: 
+  Strength: 0
+  Mental: 0
+  Health: 0
+  work: 
+  StrengthEmpty: 0
+  MentalEmpty: 0
+  HealthEmpty: 0
+  isDead: 0
+  isDeadFlag: 0
+  Recovery: 0
+  Stability: 0
+  Clean: 0
+  RecoveryState: 0
+  StabilityState: 0
+  CleanState: 0
+  isFemale: 0
+  BasicFeeling: 0
+  CumulativeFeeling: 0
+  Feeling: 0
+  Relationship: 00000000000000000000000000000000
+  RelationshipCheck: 0
 --- !u!1 &1212310270
 GameObject:
   m_ObjectHideFlags: 0
@@ -2189,6 +2263,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: edad52bc9d4e76949b8d562592ba6181, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  name: Pesshiho(Character_3)
+  cs: {fileID: 0}
   Center:
   - {fileID: 35103847}
   - {fileID: 40753724}
@@ -2431,8 +2507,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1784807053}
   - component: {fileID: 1784807052}
+  - component: {fileID: 1784807054}
   m_Layer: 0
-  m_Name: Pesshiho(Character_3)
+  m_Name: Pesshiho(Character_4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2495,6 +2572,39 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1784807054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1784807051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6779606df3b644e47b371aa8de9ff635, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ChracterName: 
+  Strength: 0
+  Mental: 0
+  Health: 0
+  work: 
+  StrengthEmpty: 0
+  MentalEmpty: 0
+  HealthEmpty: 0
+  isDead: 0
+  isDeadFlag: 0
+  Recovery: 0
+  Stability: 0
+  Clean: 0
+  RecoveryState: 0
+  StabilityState: 0
+  CleanState: 0
+  isFemale: 0
+  BasicFeeling: 0
+  CumulativeFeeling: 0
+  Feeling: 0
+  Relationship: 00000000000000000000000000000000
+  RelationshipCheck: 0
 --- !u!1 &1910899474
 GameObject:
   m_ObjectHideFlags: 0
@@ -2504,6 +2614,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1910899476}
   - component: {fileID: 1910899475}
+  - component: {fileID: 1910899477}
   m_Layer: 0
   m_Name: Narci(Character_3)
   m_TagString: Untagged
@@ -2568,6 +2679,39 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1910899477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1910899474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6779606df3b644e47b371aa8de9ff635, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ChracterName: 
+  Strength: 0
+  Mental: 0
+  Health: 0
+  work: 
+  StrengthEmpty: 0
+  MentalEmpty: 0
+  HealthEmpty: 0
+  isDead: 0
+  isDeadFlag: 0
+  Recovery: 0
+  Stability: 0
+  Clean: 0
+  RecoveryState: 0
+  StabilityState: 0
+  CleanState: 0
+  isFemale: 0
+  BasicFeeling: 0
+  CumulativeFeeling: 0
+  Feeling: 0
+  Relationship: 00000000000000000000000000000000
+  RelationshipCheck: 0
 --- !u!1 &1916609593
 GameObject:
   m_ObjectHideFlags: 0
