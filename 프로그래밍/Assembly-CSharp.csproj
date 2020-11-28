@@ -51,10 +51,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\DialogueManager.cs" />
+     <Compile Include="Assets\Dialogue_Manager.cs" />
      <Compile Include="Assets\Script\BasecampButton.cs" />
+     <Compile Include="Assets\Script\Character_State.cs" />
+     <Compile Include="Assets\Script\Choice_Manager.cs" />
+     <Compile Include="Assets\Script\Choice_Point.cs" />
+     <Compile Include="Assets\Script\ChoiceAct.cs" />
      <Compile Include="Assets\Script\Go_StartPage.cs" />
+     <Compile Include="Assets\Script\Greedia.cs" />
+     <Compile Include="Assets\Script\Lobe.cs" />
+     <Compile Include="Assets\Script\Narci.cs" />
+     <Compile Include="Assets\Script\Object_Position.cs" />
      <Compile Include="Assets\Script\ObjectDrag.cs" />
+     <Compile Include="Assets\Script\Pessiho.cs" />
      <Compile Include="Assets\Script\Scene_Dialogue.cs" />
      <Compile Include="Assets\Script\StartPageButton.cs" />
  <Reference Include="UnityEngine.CoreModule">
@@ -194,6 +203,9 @@
  </Reference>
  <Reference Include="UnityEngine.WindModule">
  <HintPath>D:/Unity/Hub/Editor/2019.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
+ </Reference>
+ <Reference Include="Facebook.Unity.Settings">
+ <HintPath>C:/Users/이준호/결손/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Unity/Hub/Editor/2019.3.3f1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
