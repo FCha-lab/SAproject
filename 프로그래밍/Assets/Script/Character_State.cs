@@ -104,11 +104,26 @@ public class Character_State : MonoBehaviour {
             HealthEmpty = false;
         }
     }
-    public void DeadFlag()
-    {
+    public void DeadFlag() {
         if (isDeadFlag >= 2)
             isDead = true;
         else
             isDead = false;
+    }
+
+    public void SetFeeling(int defalut) {//호감도를 셋팅하는 함수
+        if (isFemale) {
+            BasicFeeling = defalut;//히로인의 경우 디폴트값은 기본 호감도
+            CumulativeFeeling = 0;
+            Relationship[3] = (int)(((double)BasicFeeling + (double)CumulativeFeeling) / 500 * 100);
+            Feeling = (int)((double)Relationship[3] / 4 * 15) + BasicFeeling + CumulativeFeeling;
+
+        }
+        else {
+            BasicFeeling = 0;
+            CumulativeFeeling = 0;
+            Relationship[3] = defalut;//로브의 경우 디폴트값은 본인과의 관계
+            Feeling = 0;
+        }
     }
 }

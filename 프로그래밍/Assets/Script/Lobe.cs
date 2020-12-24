@@ -9,9 +9,9 @@ public class Lobe : MonoBehaviour {
     // Use this for initialization
     void Start () {
 
-        LobeState.Strength = 100;
-        LobeState.Mental = 100;
-        LobeState.Health = 100;
+        LobeState.Strength = 61;
+        LobeState.Mental = 75;
+        LobeState.Health = 67;
 
         LobeState.StrengthEmpty = true;
         LobeState.MentalEmpty = true;
@@ -20,15 +20,17 @@ public class Lobe : MonoBehaviour {
         LobeState.isDeadFlag = 0;
         LobeState.isDead = false;
 
-        LobeState.Recovery = 100;
-        LobeState.Stability = 100;
-        LobeState.Clean = 100;
+        LobeState.Recovery = 64;
+        LobeState.Stability = 85;
+        LobeState.Clean = 77;
 
         LobeState.RecoveryState = 2;
         LobeState.StabilityState = 2;
         LobeState.CleanState = 2;
 
         LobeState.isFemale = false;
+
+        LobeState.SetFeeling(24);
     }
 	
 	// Update is called once per frame
