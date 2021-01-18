@@ -57,7 +57,6 @@
      <Compile Include="Assets\Script\Choice_Manager.cs" />
      <Compile Include="Assets\Script\Choice_Point.cs" />
      <Compile Include="Assets\Script\ChoiceAct.cs" />
-     <Compile Include="Assets\Script\Go_StartPage.cs" />
      <Compile Include="Assets\Script\Greedia.cs" />
      <Compile Include="Assets\Script\Lobe.cs" />
      <Compile Include="Assets\Script\Narci.cs" />
@@ -65,7 +64,9 @@
      <Compile Include="Assets\Script\ObjectDrag.cs" />
      <Compile Include="Assets\Script\Pessiho.cs" />
      <Compile Include="Assets\Script\Scene_Dialogue.cs" />
+     <Compile Include="Assets\Script\SelectMenu.cs" />
      <Compile Include="Assets\Script\StartPageButton.cs" />
+     <Compile Include="Assets\Script\StateOpen.cs" />
  <Reference Include="UnityEngine.CoreModule">
  <HintPath>D:/Unity/Hub/Editor/2019.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
  </Reference>

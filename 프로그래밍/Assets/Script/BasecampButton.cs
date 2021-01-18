@@ -8,6 +8,8 @@ public class BasecampButton : MonoBehaviour {
 
     [SerializeField] GameObject panel;
 
+    private int day = 0; //진행일수
+
     public void UIOpen()
     {
         bool open = panel.activeSelf; //panel상태를 activeself로 확인
@@ -16,6 +18,7 @@ public class BasecampButton : MonoBehaviour {
 
     public void Action()
     {
-        SceneManager.LoadScene("ScriptScene");
+        if(day == 0) //진행일수에 따른 이벤트 변경 요소
+            SceneManager.LoadScene("ScriptScene");
     }
 }
