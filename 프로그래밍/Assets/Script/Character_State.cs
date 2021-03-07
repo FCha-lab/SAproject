@@ -46,6 +46,10 @@ public class Character_State : MonoBehaviour {
     //관계 체크 (1 ~ 3)
     public int RelationshipCheck;
 
+    public void Seeable_Status() //스탯창
+    {
+
+    }
 
     //관계 수치에 따른 관계 설정
     public void Reration(int relation)
@@ -125,5 +129,16 @@ public class Character_State : MonoBehaviour {
             Relationship[3] = defalut;//로브의 경우 디폴트값은 본인과의 관계
             Feeling = 0;
         }
+    }
+
+    //행동에 따른 수치 변화
+    public void Working()
+    {
+        int test_point = 5; //작업이나 일자에 따라 다르게 설정
+
+        Strength += test_point;
+        StrengthFlag();
+        MentalFlag();
+        HealthFlag();
     }
 }

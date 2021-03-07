@@ -57,6 +57,7 @@
      <Compile Include="Assets\Script\Choice_Manager.cs" />
      <Compile Include="Assets\Script\Choice_Point.cs" />
      <Compile Include="Assets\Script\ChoiceAct.cs" />
+     <Compile Include="Assets\Script\Go_StartPage.cs" />
      <Compile Include="Assets\Script\Greedia.cs" />
      <Compile Include="Assets\Script\Lobe.cs" />
      <Compile Include="Assets\Script\Narci.cs" />

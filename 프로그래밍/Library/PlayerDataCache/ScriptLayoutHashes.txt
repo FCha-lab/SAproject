@@ -1,11 +1,14 @@
 WindowsStandalone
 PlayerPath?
-C:/Users/이준호/결손/TestBuild2.exe
+C:/Users/이준호/결손/TestBuild4.exe
 SceneListBegin?
 Assets/Scene/StartPage.unity
 Assets/Scene/Basecamp.unity
 Assets/Scene/ScriptScene.unity
 Assets/Scene/Scene_ExploreTask.unity
+Assets/Scene/ExploreTask_Greedia.unity
+Assets/Scene/ExploreTask_Narci.unity
+Assets/Scene/ExploreTask_Pessiho.unity
 SceneListEnd?
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 4b12dd839b2293f8457cd67cc3610b85 UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
@@ -124,6 +127,7 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
 ee3c4f188dd0540e572b83270d99dece Assembly-CSharp.dll:.BasecampButton
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Greedia
+cbafe86da858a81a535f0185c3308fbd Assembly-CSharp.dll:.StateOpen
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Pessiho
 5dd3f419948464238404b180f238f332 Assembly-CSharp.dll:.ObjectDrag
 32e8fe00b63ed946490b898f6024a2f2 Facebook.Unity.Settings.dll:Facebook.Unity.Settings.FacebookSettings
@@ -158,9 +162,9 @@ bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.Audi
 463516d5b5fe8e67a0a24c48f2095b04 UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInputModule
 c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingCollider
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
-1dc6039b30fda523a58c17a934cdb309 Assembly-CSharp.dll:.Scene_Dialogue
+6a8265ce227f19e4611e0dc172b42785 Assembly-CSharp.dll:.Scene_Dialogue
 9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 c23a82db42fff8cc86b249ed13c50e7f Assembly-CSharp.dll:.Object_Position
 10789050f9e6425ea0085d2d7650cd40 Assembly-CSharp.dll:.Character_State
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Lobe
-cbafe86da858a81a535f0185c3308fbd Assembly-CSharp.dll:.StateOpen
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Go_StartPage

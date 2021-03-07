@@ -9,9 +9,9 @@ using UnityEngine.SceneManagement;
 public class Dialogue
 {
     [TextArea]
-    //public string name; //캐릭터 이름 직접 입력할 경우 활성
     public string dialogue;
     public Sprite cg;
+    public string name; //캐릭터 이름 직접 입력할 경우 활성
 }
 
 public class Scene_Dialogue : MonoBehaviour
@@ -69,8 +69,8 @@ public class Scene_Dialogue : MonoBehaviour
 
         StartCoroutine(TypeSentence(dialogue[count].dialogue));
         StandingCG.sprite = dialogue[count].cg;
-        //name_Dialogue.text = dialogue[count].name; //캐릭터 이름 직접 입력할 경우 활성
-        name_Dialogue.text = dialogue[count].cg.ToString(); //캐릭터 이름을 파일 이름으로 출력
+        name_Dialogue.text = dialogue[count].name; //캐릭터 이름 직접 입력할 경우 활성
+        //name_Dialogue.text = dialogue[count].cg.ToString(); //캐릭터 이름을 파일 이름으로 출력할 경우 활성
         count++;
     }
 

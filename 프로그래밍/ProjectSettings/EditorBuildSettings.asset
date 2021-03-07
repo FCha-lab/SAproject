@@ -17,3 +17,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scene/Scene_ExploreTask.unity
     guid: 16b93ece6c9a8184c9ec94738ce4dc16
+  - enabled: 1
+    path: Assets/Scene/ExploreTask_Greedia.unity
+    guid: e40dc5cf1edaf9d40ad1257f8411b5ab
+  - enabled: 1
+    path: Assets/Scene/ExploreTask_Narci.unity
+    guid: 62eb9312ab7b9654ea4714dd8dc5116b
+  - enabled: 1
+    path: Assets/Scene/ExploreTask_Pessiho.unity
+    guid: 62b6cb3acbb66ec4aa0f5989db4e701b

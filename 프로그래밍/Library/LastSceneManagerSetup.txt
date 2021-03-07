@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scene/Basecamp.unity
+- path: Assets/Scene/StartPage.unity
   isLoaded: 1
   isActive: 1
